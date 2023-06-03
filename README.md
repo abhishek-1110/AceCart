@@ -10,4 +10,6 @@ This is an e-commerce web app. This is my final year project work. This project 
 
 MongoDB is used as Database for storing user information, cart information, order details.
 
+* Special Mention: This project was not possible without the help of codeforinterview Flipkart Clone Playlist. Thanks to him.
+
 UI of this web application is similar to Flipkart. Images are from Flipkart Also.
