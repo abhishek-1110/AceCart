@@ -1,7 +1,7 @@
 // using axios for calling api's
 import axios from "axios";
 
-const url = "http://localhost:8000";
+const url = "https://ace-cart.vercel.app";
 
 export const authenticateSignup = async (user) => {
   try {
