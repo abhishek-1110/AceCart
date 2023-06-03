@@ -2,7 +2,7 @@ import axios from "axios";
 
 import * as actionTypes from "../constants/electronicsProductConstant";
 
-const URL = "https://ace-cart.vercel.app";
+const URL = "";
 
 export const getElectronicsProducts = () => async (dispatch) => {
   try {
