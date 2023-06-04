@@ -337,7 +337,7 @@ const LoginDialog = ({ open, setOpen }) => {
               </LoginButton>
               <Typography style={{ textAlign: "center" }}>OR</Typography>
               {/* <Divider style={{width: "100%", backgroundColor: "#333", marginTop: "15px"}}></Divider> */}
-              <RequestOTP>Request OTP</RequestOTP>
+              {/* <RequestOTP>Request OTP</RequestOTP> */}
               <CreateAccount onClick={() => toggleSignup()}>
                 New to AceCart? Create an account
               </CreateAccount>
