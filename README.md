@@ -5,8 +5,7 @@ This is an e-commerce web app. This is my final year project work. This project 
 2. Add or remove cart items
 3. Synchronization of cart data with users.
 4. Keep track of Ordered items and having synchronization.
-5. Users can fill up the form to get their order placed & delivered. Upon filling up the form two mails are generated using EmailJS. One is
-6. sent to user for their order confirmation & one is sent to seller.
+5. Users can fill up the form to get their order placed & delivered. Upon filling up the form two mails are generated using EmailJS. One is sent to user for their order confirmation & one is sent to seller.
 
 MongoDB is used as Database for storing user information, cart information, order details.
 
