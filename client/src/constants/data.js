@@ -66,7 +66,7 @@ export const bannerData = [
 
 export const imageURL = [
   "https://rukminim1.flixcart.com/flap/960/960/image/2f30db9425df5cec.jpg?q=50",
-  // "https://rukminim1.flixcart.com/flap/960/960/image/084789479074d2b2.jpg",
+  "https://rukminim1.flixcart.com/flap/960/960/image/084789479074d2b2.jpg",
   "https://github.com/abhishek-1110/AceCart/assets/57557012/801146ea-6b5e-4f31-a0ef-828c61a5e1f4",
-  "https://rukminim1.flixcart.com/flap/960/960/image/1ce0c4c1fb501b45.jpg?q=50",
+  // "https://rukminim1.flixcart.com/flap/960/960/image/1ce0c4c1fb501b45.jpg?q=50",
 ];
