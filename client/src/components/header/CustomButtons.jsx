@@ -4,12 +4,11 @@ import LoginDialog from "../login/LoginDialog";
 // use state : stores values
 import { useState, useContext } from "react";
 import { DataContext } from "../../context/DataProvider";
+import { useSelector } from "react-redux";
+import { Link, useNavigate } from "react-router-dom";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Profile from "./Profile";
 
-import { useSelector } from "react-redux";
-
-import { Link, useNavigate } from "react-router-dom";
 const BoxWrapper = styled(Box)`
   display: flex;
   justify-content: space-between;
@@ -21,15 +20,8 @@ const BoxWrapper = styled(Box)`
   }
 `;
 
-const Container = styled(Box)(({ theme }) => ({
-  gap: 25,
-  display: "flex",
-  alignItems: "center",
-  flexWrap: "nowrap",
-}));
-
 const LoginButton = styled(Button)`
-  color: #2874f0;
+  color: #000;
   background: #fff;
   text-transform: none;
   padding: 5px 40px;
@@ -46,11 +38,13 @@ const LoginButton = styled(Button)`
 const MyOrders = styled(Box)`
   font-weight: 600;
   cursor: pointer;
+  color: #000;
 `;
 
 const Cart = styled(ShoppingCartIcon)`
   cursor: pointer;
   vertical-align: middle;
+  color: #000;
 `;
 
 const NavigateCart = styled(Link)`
@@ -96,6 +90,7 @@ const CustomButtons = () => {
           </Badge>
           <Typography
             style={{
+              color: "#000",
               fontWeight: 600,
               cursor: "pointer",
               whiteSpace: "nowrap",

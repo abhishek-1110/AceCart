@@ -14,9 +14,10 @@ import { Link } from "react-router-dom";
 const SearchContainer = styled(Box)(({ theme }) => ({
   background: "#fff",
   width: "38%",
-  borderRadius: "2px",
   marginLeft: "10px",
   display: "flex",
+  border: "1px solid black",
+  borderRadius: "20px",
 }));
 
 const InputSearchBase = styled(InputBase)(({ theme }) => ({
@@ -35,6 +36,7 @@ const SearchIconWrapper = styled(Box)`
   padding: 5px;
   display: flex;
   color: blue;
+  cursor: pointer;
 `;
 
 const ListWrapper = styled(List)`
