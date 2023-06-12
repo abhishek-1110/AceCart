@@ -26,9 +26,11 @@ const Component = styled(Box)`
 `;
 
 const Image = styled(Box)`
-  ${'' /* background: #2874f0
+  ${
+    "" /* background: #2874f0
     url(https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/login_img_c4a81e.png)
-    center 85% no-repeat; */}
+    center 85% no-repeat; */
+  }
   background: #f04e26 url(https://user-images.githubusercontent.com/57557012/245187748-e079948e-36a2-47e3-a2d8-5cc91e67d9ed.gif) center bottom no-repeat;
   height: 100%;
   width: 30%;
@@ -330,8 +332,17 @@ const LoginDialog = ({ open, setOpen }) => {
                 type="password"
               />
               <Text>
-                By continuing, you agree to AceCart's Terms of Use and Privacy
-                Policy.
+                By continuing, you agree to AceCart's{" "}
+                <a href="/pages/termsofuse" style={{ textDecoration: "none" }}>
+                  Terms of Use{" "}
+                </a>
+                and{" "}
+                <a
+                  href="/pages/privacypolicy"
+                  style={{ textDecoration: "none" }}
+                >
+                  Privacy Policy.
+                </a>
               </Text>
               <LoginButton onClick={() => loginUser()}>
                 {loading ? <CircularProgress color="inherit" /> : "Login"}
