@@ -86,16 +86,10 @@ const DetailView = (props) => {
   const [delivery, setDelivery] = useState(false);
   const [checkDelivery, setCheckDelivery] = useState(false);
 
-  const fassured =
-    "https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fa_62673a.png";
-
-  const adURL =
-    "https://rukminim1.flixcart.com/lockin/774/185/images/CCO__PP_2019-07-14.png?q=50";
-
   useEffect(() => {
     if (product && id !== product.id) dispatch(getProductDetails(id));
         props.setProgress(30);
-  }, [dispatch, id, product, loading]);
+  }, [dispatch, id, product, loading, props]);
 
   props.setProgress(100);
 
@@ -130,11 +124,6 @@ const DetailView = (props) => {
               style={{ marginTop: 5, color: "#878787", fontSize: 14 }}
             >
               8 Ratings &amp; 1 review
-              <img
-                src={fassured}
-                alt="assured"
-                style={{ width: 75, marginLeft: 20, verticalAlign: "middle" }}
-              />
             </Typography>
 
             <Typography>
@@ -267,12 +256,6 @@ const DetailView = (props) => {
                 <TableRow>
                   <TableData>Seller</TableData>
                   <TableCell style={{ border: "none" }}>{product.seller}</TableCell>
-                </TableRow>
-
-                <TableRow>
-                  <TableData colSpan={2}>
-                    <img src={adURL} alt="supercoins" width={"40%"} />
-                  </TableData>
                 </TableRow>
 
                 <TableRow>
