@@ -7,13 +7,13 @@ import { Box } from "@mui/material";
 import DataProvider from "./context/DataProvider";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 
 import DetailView from "./components/details/DetailView";
 
 import Cart from "./components/cart/Cart";
 import Footer from "./components/footer/Footer";
 import DetailView2 from "./components/details/DetailView2";
-
 import LoadingBar from "react-top-loading-bar";
 import DeliveryRequest from "./components/pages/DeliveryRequest";
 import ErrorPage from "./components/pages/ErrorPage";
@@ -24,7 +24,6 @@ import Contact from "./components/pages/Contact";
 import TermsOfUse from "./components/pages/TermsOfUse";
 import Security from "./components/pages/Security";
 
-import { Toaster } from "react-hot-toast";
 
 function App() {
   const [progress, setProgress] = useState(0);
