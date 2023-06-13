@@ -39,11 +39,7 @@ function App() {
         <Box style={{ marginTop: 54 }}>
           <Routes>
             <Route path="/" element={<Home setProgress={setProgress} />} />
-            {/* <Route path="/product/:id" element={<DetailView />} /> */}
-            <Route
-              path="/product/:id"
-              element={<DetailView setProgress={setProgress} />}
-            />
+            <Route path="/product/:id" element={<DetailView setProgress={setProgress} />}/>
             <Route path="/electronicsProduct/:id" element={<DetailView2 />} />
             <Route path="/cart" element={<Cart setProgress={setProgress} />} />
             <Route path="/deliveryForm" element={<DeliveryRequest />} />
