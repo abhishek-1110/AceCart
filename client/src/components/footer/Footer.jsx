@@ -51,18 +51,8 @@ const Footer = () => {
                   </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="/pages/contact" className="text-reset">
                     Contact Us
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Careers
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Corporate Information
                   </a>
                 </p>
               </div>
@@ -76,16 +66,6 @@ const Footer = () => {
                 <p>
                   <a href="#!" className="text-reset">
                     Shipping
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Cancellation &amp; Returns
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    FAQ
                   </a>
                 </p>
               </div>
@@ -141,8 +121,8 @@ const Footer = () => {
           style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
         >
           © 2023 Copyright:
-          <a className="text-reset fw-bold" href="#">
-            An online Shopping store
+          <a className="text-reset fw-bold" href="/">
+           ace cart
           </a>
         </div>
       </footer>

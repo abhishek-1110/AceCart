@@ -33,7 +33,7 @@ function App() {
       <BrowserRouter>
         {/* Adding in top level component */}
         <Toaster />
-        <LoadingBar color="#f1ee8e" height={3} progress={progress} />
+        <LoadingBar color="#fb641b" height={3} progress={progress} />
         <Header />
         <Box style={{ marginTop: 54 }}>
           <Routes>
@@ -48,6 +48,7 @@ function App() {
             <Route path="/pages/contact" element={<Contact />} />
             <Route path="/pages/termsofuse" element={<TermsOfUse />} />
             <Route path="/pages/security" element={<Security />} />
+            <Route path="/pages/contact" element={<Contact/>}/>
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </Box>
